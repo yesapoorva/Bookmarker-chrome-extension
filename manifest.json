@@ -1,0 +1,23 @@
+{
+    "name": "21st Century Book Marker",
+    "description": "21st Century Book Marker",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "permissions":[
+        "activeTab",
+        "bookmarks"
+    ],
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.jpg"
+          }
+    },
+
+    "icons":{
+        "16": "icons/icon16.jpg"
+        
+    }
+}
